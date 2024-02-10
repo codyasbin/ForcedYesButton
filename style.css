@@ -67,3 +67,20 @@ button#noButton:hover {
     color: #e60000;
     font-size: 24px;
 }
+@media (max-width: 768px) {
+    .container {
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .buttons {
+        margin-top: 10px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
