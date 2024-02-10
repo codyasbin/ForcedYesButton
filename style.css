@@ -89,7 +89,7 @@ button#noButton:hover {
     border: 2px solid #4da6ff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: fixed; /* Fix position of Yes button */
-    left: 45%; /* Position at the center horizontally */
+    left: 34%; /* Position at the center horizontally */
     transform: translateX(-50%); /* Center horizontally */
    
    }
@@ -100,7 +100,7 @@ button#noButton:hover {
     border: 2px solid #ff4d4d;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: fixed; /* Fix position of No button */
-    left: 55%; /* Position at the center horizontally */
+    left: 64%; /* Position at the center horizontally */
     transform: translateX(-50%); /* Center horizontally */
  
    }
