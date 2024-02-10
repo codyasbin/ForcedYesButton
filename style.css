@@ -92,9 +92,9 @@ button#noButton:hover {
     left: 45%; /* Position at the center horizontally */
     transform: translateX(-50%); /* Center horizontally */
    
-}
+   }
 
-button#noButton {
+    button#noButton {
     background-color: #ff8080;
     color: white;
     border: 2px solid #ff4d4d;
@@ -103,5 +103,5 @@ button#noButton {
     left: 55%; /* Position at the center horizontally */
     transform: translateX(-50%); /* Center horizontally */
  
-}
+   }
 }
