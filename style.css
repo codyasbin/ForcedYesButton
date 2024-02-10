@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9e6e6;
+    text-align: center;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.container {
+    margin-top: 100px;
+    position: relative; /* Set position to relative for positioning child elements */
+}
+
+h1 {
+    color: #e60000;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    transition: transform 0.3s ease-out, background-color 0.3s, border-color 0.3s;
+}
+
+button#yesButton {
+    background-color: #80cfff;
+    color: white;
+    border: 2px solid #4da6ff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed; /* Fix position of Yes button */
+    left: 45%; /* Position at the center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+   
+}
+
+button#noButton {
+    background-color: #ff8080;
+    color: white;
+    border: 2px solid #ff4d4d;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed; /* Fix position of No button */
+    left: 55%; /* Position at the center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+ 
+}
+
+button#noButton:hover {
+    background-color: #ff4d4d;
+    border-color: #ff3333;
+    transform: scale(1.1);
+}
+
+#noButton:focus {
+    outline: none;
+}
+
+#message {
+    margin-top: 80px;
+    display: none;
+    color: #e60000;
+    font-size: 24px;
+}
