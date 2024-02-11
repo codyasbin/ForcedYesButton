@@ -1,7 +1,9 @@
 document.getElementById("yesButton").addEventListener("click", function() {
     document.getElementById("message").innerText = "Thank you for accepting! Happy Valentine's Day!";
     document.getElementById("message").style.display = "block";
+    document.getElementById("propose").innerHTML = '<img src="kiss.gif" alt="">';
 });
+
 
 document.getElementById("noButton").addEventListener("mouseover", moveNoButton);
 
